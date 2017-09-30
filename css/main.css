@@ -5,11 +5,19 @@ html, body {
 	overflow: hidden;
 }
 
-#mainpanel {
+.mainpanel {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	background-color: yellow;
+}
+
+.topsearch{
+	height: 10%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: red;
 }
