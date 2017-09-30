@@ -25,12 +25,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
-.dots-div {
-    position: fixed;
-    bottom: calc(1% + 100px);
-    right: 34px;
-    z-index: 999;
-}
+
 .scroll_item {
     border: 3px solid #000;
     width: 12px;
@@ -113,9 +108,6 @@ body {
     display: inline-block;
 }
 @media(max-width: 850px) {
-    .dots-div {
-        display: none;
-    }
     .section-center .text-cutoff {
         width: 100%;
         margin-left: 0px;
