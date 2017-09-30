@@ -1,7 +1,7 @@
 {
     "journeys" : [
         {
-            "id": 90001,
+            "id":90001,
             "user_ids" : [ 
             
                 1, 
@@ -447,7 +447,7 @@
             "user_id" :5
 
         },{
-            "id": 70019,
+            "id":70019,
             "body" : "Wow, this is post 9",
             "upload_date" : "October 4, 2017",
             "image_url" : "",
