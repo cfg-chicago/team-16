@@ -1,10 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300|Montserrat:800);
+
 html {
     height: 100%;
     width: 100%;
     margin: 0;
     overflow: hidden;
+    background-color: #52C0A7;
 }
+
 body {
     background-color: #52C0A7;
     color: black;
@@ -16,12 +19,8 @@ body {
     padding: 0px;
     overflow: hidden;
 }
+
 .title-text {
-    float: right;
-    display: inline-block;
-    padding-top: 0.4em;
-    text-align: right;
-    padding-right: 0.2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
