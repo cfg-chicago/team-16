@@ -99,14 +99,10 @@ function attemptCreateMessage() {
  * Display an error message to the user
  */
 function showErrorMessage(message) {
-<<<<<<< HEAD
-    
-=======
     var msgbox = document.getElementById("error-message-box");
     var msgcontent = document.getElementById("message-to-error-out");
     message = "Sorry about that. We had an error.<br><br>" + message;
     var time = message.length * 20 + 300;
->>>>>>> d07392808a1687813b3d5e886e4606a3b68831e8
     msgcontent.innerHTML = message;
     msgbox.style.display = "block";
     window.setTimeout(function () {
