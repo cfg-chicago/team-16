@@ -1,0 +1,198 @@
+{
+    "journeys" : [
+        {
+            "id": 90001,
+            "user_ids" : [ 
+                1, 
+                3, 
+                4,
+                5
+            ],
+            "ratings": [
+                5,
+                4,
+                5
+            ],
+            "background_image" : "",
+            "posts": [
+                70001,
+                70002,
+                70003
+            ],
+            "reviews": [
+                {
+                    "user_id":1,
+                    "title" : "Amazing Journey",
+                    "body": "This journey was fun!",
+                    "upload_date": "September 25, 2017"
+
+                },
+                {
+                    "user_id":2,
+                    "title" : "That was pretty cool",
+                    "body": "This journey was pretty dope~",
+                    "upload_date": "September 26, 2017"
+
+                }
+            ]
+
+        },
+        {
+            "id": 90002,
+            "user_ids" : [ 
+                2, 
+                3, 
+                4
+            ],
+            "ratings": [
+                4,
+                4,
+                5
+            ],
+            "background_image" : "",
+            "posts": [
+                70001,
+                70002,
+                70003
+            ],
+            "reviews": [
+                {
+                    "user_id":1,
+                    "title" : "Amazing Journey",
+                    "body": "This journey was fun!",
+                    "upload_date": "September 25, 2017"
+
+                },
+                {
+                    "user_id":2,
+                    "title" : "Amazing Journey",
+                    "body": "This journey was pretty dope~",
+                    "upload_date": "September 26, 2017"
+
+                }
+            ]
+
+        },
+        {
+            "id": 90003,
+            "user_ids" : [ 
+                1, 
+                2, 
+                5
+            ],
+            "ratings": [
+                5,
+                5,
+                5
+            ],
+            "background_image" : "",
+            "posts": [
+                70001,
+                70002,
+                70003
+            ],
+            "reviews": [
+                {
+                    "user_id":1,
+                    "title" : "Amazing Journey",
+                    "body": "This journey was fun!",
+                    "upload_date": "September 25, 2017"
+
+                },
+                {
+                    "user_id":2,
+                    "title" : "Amazing Journey",
+                    "body": "This journey was pretty dope~",
+                    "upload_date": "September 26, 2017"
+
+                }
+            ]
+
+        }
+    ],
+    "users" : [
+        {
+            "id" : 1,
+            "email" : "seanxmli@gmail.com",
+            "first_name" : "sean",
+            "last_name" : "li",
+            "is_teacher" : true,
+            "journey_ids" : [ 
+                90001, 
+                90003 
+            ]
+            
+        },
+        {
+            "id" : 2,
+            "email" : "dgarry@usc.edu",
+            "first_name" : "david",
+            "last_name" : "garry",
+            "is_teacher" : true,
+            "journey_ids" : [ 
+                90002, 
+                90003 
+            ]
+            
+        },
+        {
+            "id" : 3,
+            "email" : "snhoward@stanford.edu",
+            "first_name" : "sean",
+            "last_name" : "howard",
+            "is_teacher" : true,
+            "journey_ids" : [ 
+                90001, 
+                90002 
+            ]
+            
+        },
+        {
+            "id" : 4,
+            "email" : "nkk1@rice.edu",
+            "first_name" : "namanh",
+            "last_name" : "kapur",
+            "is_teacher" : true,
+            "journey_ids" : [ 
+                90001, 
+                90002 
+            ]
+            
+        },
+        {
+            "id" : 5,
+            "email" : "ety1@rice.edu",
+            "first_name" : "erik",
+            "last_name" : "li",
+            "is_teacher" : true,
+            "journey_ids" : [ 
+                90001, 
+                90003 
+            ]
+            
+        }
+    ],
+    "posts" : [ 
+        {
+            "id": 70001,
+            "body" : "Wow, this is post 1",
+            "upload_date" : "September 29, 2017",
+            "image_url" : "",
+            "user_id" :1
+        }, 
+        {
+            "id": 70002,
+            "body" : "Lol, this is post 2",
+            "upload_date" : "September 30, 2017",
+            "image_url" : "",
+            "user_id" :3
+        },
+        {
+            "id": 70003,
+            "body" : "Dang, this is post 3",
+            "upload_date" : "September 29, 2017",
+            "image_url" : "",
+            "user_id" :4
+        }
+    ]
+}
