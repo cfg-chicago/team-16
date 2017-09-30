@@ -35,3 +35,12 @@ body {
 .homeicon {
 	height: 100%;
 }
+
+.navbar-holder {
+	margin: 0.5%;
+}
+
+.journey-panel {
+	background-color: #222222;
+	color: #FFF;
+}
