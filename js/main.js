@@ -94,3 +94,16 @@ function attemptCreateMessage() {
     xmlhttp.open("GET", "createMessageHandler.php?c=" + content + "&u=" + ACTIVE_UID + "&i=" + conversation_id, true);
     xmlhttp.send();
 }
+
+/**
+ * Display an error message to the user
+ */
+function showErrorMessage(message) {
+    
+    msgcontent.innerHTML = message;
+    msgbox.style.display = "block";
+    window.setTimeout(function () {
+        msgbox.style.display = "none";
+        msgcontent.innerHTML = "";
+    }, time);
+}
