@@ -19,9 +19,9 @@
             "background_image" : "",
             "posts": [
                 70001,
+                70002,
                 70003,
-                70004,
-                70005
+                70004
             ],
             "reviews": [
                 {
@@ -159,7 +159,8 @@
             "ratings": [
                 4,
                 4,
-                5
+                5,
+                4
             ],
             "background_image" : "",
             "posts": [
@@ -306,7 +307,7 @@
 
         {
             "id": 70001,
-            "body" : "Wow, this is post 1",
+            "body" : "Journey 1, User 1, rated 5",
             "upload_date" : "September 29, 2017",
             "image_url" : "",
             "user_id" :1
@@ -314,56 +315,56 @@
         }, 
         {
             "id": 70002,
-            "body" : "Lol, this is post 2",
+            "body" : "Journey 1, User 3, rated 4",
             "upload_date" : "September 30, 2017",
-            "image_url" : "",
-            "user_id" :2
-        },
-        {
-            "id": 70003,
-            "body" : "Dang, this is post 3",
-            "upload_date" : "September 29, 2017",
             "image_url" : "",
             "user_id" :3
         },
         {
-            "id": 70004,
-            "body" : "Wow, this is post 4",
-            "upload_date" : "October 1, 2017",
+            "id": 70003,
+            "body" : "Journey 1, User 4, rated 5",
+            "upload_date" : "September 29, 2017",
             "image_url" : "",
             "user_id" :4
-
         },
         {
-            "id": 70005,
-            "body" : "Wow, this is post 5",
-            "upload_date" : "October 2, 2017",
+            "id": 70004,
+            "body" : "Journey 1, User 5, rated 5",
+            "upload_date" : "October 1, 2017",
             "image_url" : "",
             "user_id" :5
 
         },
         {
-            "id": 70006,
-            "body" : "Wow, this is post 6",
+            "id": 70005,
+            "body" : "Journey 2, User 1, rated 4",
             "upload_date" : "October 2, 2017",
             "image_url" : "",
             "user_id" :1
 
         },
         {
-            "id": 70007,
-            "body" : "Wow, this is post 7",
-            "upload_date" : "October 3, 2017",
+            "id": 70006,
+            "body" : "Journey 2, User 2, rated 4",
+            "upload_date" : "October 2, 2017",
             "image_url" : "",
             "user_id" :2
 
         },
         {
-            "id": 70008,
-            "body" : "Wow, this is post 8",
+            "id": 70007,
+            "body" : "Journey 2, User 3, rated 5",
             "upload_date" : "October 3, 2017",
             "image_url" : "",
             "user_id" :3
+
+        },
+        {
+            "id": 70008,
+            "body" : "Journey 2, User 4, rated 5",
+            "upload_date" : "October 3, 2017",
+            "image_url" : "",
+            "user_id" :4
 
         },
         {
@@ -381,6 +382,93 @@
             "image_url" : "",
             "user_id" :5
 
-        } 
+        },
+        {
+            "id": 70011,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        },
+        {
+            "id": 70012,
+            "body" : "Wow, this is post 10",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5
+
+        },
+        {
+            "id": 70013,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        },
+        {
+            "id": 70014,
+            "body" : "Wow, this is post 10",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5
+
+        },
+        {
+            "id": 70015,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        },
+        {
+            "id": 70016,
+            "body" : "Wow, this is post 10",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5
+
+        },
+        {
+            "id": 70017,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        },
+        {
+            "id": 70018,
+            "body" : "Wow, this is post 10",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5
+
+        },{
+            "id": 70019,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        },
+        {
+            "id": 70020,
+            "body" : "Wow, this is post 10",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5
+
+        },
+        {
+            "id": 70021,
+            "body" : "Wow, this is post 9",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4
+
+        }
     ]
 }
