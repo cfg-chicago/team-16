@@ -70,3 +70,27 @@ function attemptCreate() {
     xmlhttp.open("GET", "createAccountHandler.php?u=" + usernameInput.value + "&p=" + passwordInput.value, true);
     xmlhttp.send();
 }
+
+/**
+ * Attempts to create a message
+ */
+function attemptCreateMessage() {
+    document.getElementById("message-input-button").disabled = true;
+    var message = document.getElementById("message-input");
+    var content = message.value;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            if (this.responseText == "created") {
+                message.value = "";
+                updateMessageList();
+            } else {
+                showErrorMessage(this.responseText);
+            }
+            checkForEnableSubmit();
+        }
+    };
+    var conversation_id = document.getElementById(ACTIVE_CONVERSATION_ID).id;
+    xmlhttp.open("GET", "createMessageHandler.php?c=" + content + "&u=" + ACTIVE_UID + "&i=" + conversation_id, true);
+    xmlhttp.send();
+}
