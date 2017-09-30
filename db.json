@@ -245,8 +245,9 @@
             "id" : 1,
             "email" : "seanxmli@gmail.com",
             "name": "Sean Li",
+            "profile_picture": "",
             "is_teacher" : true,
-            "journey_ids" : [ 
+            "journeys" : [ 
                 90001, 
                 90002,
                 90003,
@@ -259,8 +260,9 @@
             "id" : 2,
             "email" : "dgarry@usc.edu",
             "name": "David Garry",
+            "profile_picture": "",
             "is_teacher" : true,
-            "journey_ids" : [ 
+            "journeys" : [ 
                 90002, 
                 90003,
                 90005
@@ -271,8 +273,9 @@
             "id" : 3,
             "email" : "snhoward@stanford.edu",
             "name": "Sean Howard",
+            "profile_picture": "",
             "is_teacher" : true,
-            "journey_ids" : [ 
+            "journeys" : [ 
                 90001, 
                 90002,
                 90003,
@@ -285,8 +288,9 @@
             "id" : 4,
             "email" : "nkk1@rice.edu",
             "name": "Namanh Kapur",
+            "profile_picture": "",
             "is_teacher" : true,
-            "journey_ids" : [ 
+            "journeys" : [ 
                 90001, 
                 90002,
                 90004,
@@ -299,8 +303,9 @@
             "id" : 5,
             "email" : "ety1@rice.edu",
             "name": "Erik Yamada",
+            "profile_picture": "",
             "is_teacher" : true,
-            "journey_ids" : [ 
+            "journeys" : [ 
                 90001, 
                 90003,
                 90004,
@@ -454,13 +459,8 @@
             "user_id" :2
 
         },{
-<<<<<<< HEAD
             "id": 70019,
             "body" : "Journey 5, User 3, rated 3",
-=======
-            "id":70019,
-            "body" : "Wow, this is post 9",
->>>>>>> 7da2bd8a90b521937e332108b140a856bda4220b
             "upload_date" : "October 4, 2017",
             "image_url" : "",
             "user_id" :3
