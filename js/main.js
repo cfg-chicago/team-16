@@ -2,6 +2,7 @@ console.log("start");
 
 // Get a reference to the database service
 var database = firebase.database();
+var salt = "234hW5tegrWEFGW2g452t45gfeEWE";
 
 var ACTIVE_UID = -1;
 if(getParameterByName("usn") != null){
@@ -28,7 +29,9 @@ $("#li").click(function(){
 
 $("#si").click(function(){
   if(ACTIVE_UID != -1){
-    window.location.href = 
+    window.location.href = "profile.html?usn="+ACTIVE_UID+"&?hash="+(ACTIVE_UID+salt).hashCode();
+  } else {
+    
   }
 });
 

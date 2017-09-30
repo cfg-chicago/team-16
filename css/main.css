@@ -6,7 +6,7 @@ html {
 
     margin: 0;
 
-    
+
 }
 
 body {
@@ -60,8 +60,8 @@ body {
     padding-top: calc(0em);
     padding: 1px;
     border-radius: 5px;
-    background-image: url('https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/12/iStock_000052710440_Medium.jpg');
-    background:linear-gradient(0deg,rgba(0,0,150,0.35),rgba(0,0,150,0.35)),url('https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/12/iStock_000052710440_Medium.jpg');
+
+    background:linear-gradient(0deg,rgba(0,0,150,0.35),rgba(0,0,150,0.35)),url('https://source.unsplash.com/random/1200x200?chicago');
     background-size:cover;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
