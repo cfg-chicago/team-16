@@ -1,4 +1,36 @@
 console.log("start");
+
+// Get a reference to the database service
+var database = firebase.database();
+
+//Test data
+String userId = "lj23";
+String name = "Lebron James";
+String email = "lebron.james23@gmail.com";
+String imageUrl = "google.com";
+
+function writeTestData(userId, name, email, imageUrl) {
+  firebase.database().ref('tests/' + userId).set({
+    username: name,
+    email: email,
+    profile_picture : imageUrl
+  });
+}
+
+/**
+  * writes a new post
+  */
+function writePost(postId, userId, body, uploadDate, imageUrl, journeyId) {
+  firebase.database().ref('posts/' + postId).set({
+    username: name,
+    email: email,
+    profile_picture : imageUrl
+  });
+}
+
+
+
+
 /**
  * Attempts to validate an account
  */
@@ -114,6 +146,3 @@ function showErrorMessage(message) {
 
 
 console.log("finish");
-
-
-
