@@ -5,6 +5,12 @@ var database = firebase.database();
 var salt = "234hW5tegrWEFGW2g452t45gfeEWE";
 
 var ACTIVE_UID = -1;
+
+if(getCookie("ACTIVE_UID") == ""){
+  setCookie("ACTIVE_UID",ACTIVE_UID,60*60*24*365)
+}
+ACTIVE_UID = getCookie(ACTIVE_UID);
+
 if(getParameterByName("usn") != null){
   authenticateUser(getParameterByName("usn"), getParameterByName("hash"));
 }
@@ -13,6 +19,7 @@ function signInUser(username){
   $("#si").text(" "+username);
   $("#li").text(" Logout");
   ACTIVE_UID = username;
+  setCookie("ACTIVE_UID",ACTIVE_UID,80000)
 }
 
 function signOutUser(){
@@ -31,7 +38,7 @@ $("#si").click(function(){
   if(ACTIVE_UID != -1){
     window.location.href = "profile.html?usn="+ACTIVE_UID+"&?hash="+(ACTIVE_UID+salt).hashCode();
   } else {
-    
+
   }
 });
 
@@ -63,16 +70,6 @@ function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
     user_id: userId,
     journey_id: journeyId,
   };
-
-
-
-
-
-
-
-
-
-
 
   // Write the new post's data simultaneously in the posts list and the user's post list.
 
@@ -151,3 +148,27 @@ function authenticateUser(email, password) {
 
 
 console.log("finish");
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}

@@ -68,6 +68,11 @@ body {
     text-align: center;
 }
 
+.feedbackiframe {
+  height: 60vh;
+  width: 100%;
+}
+
 .journey-panel .bottom-journey-panel {
     color: #fff;
     height: 100%;
