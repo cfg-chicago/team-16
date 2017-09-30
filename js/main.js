@@ -75,7 +75,7 @@ function attemptCreate() {
  * Attempts to create a message
  */
 function attemptCreateMessage() {
-    document.getElementById("message-input-button").disabled = true;
+    //document.getElementById("message-input-button").disabled = true;
     var message = document.getElementById("message-input");
     var content = message.value;
     var xmlhttp = new XMLHttpRequest();
