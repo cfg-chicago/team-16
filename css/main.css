@@ -24,3 +24,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
+
+.mainbody{
+	background-color: #52C0A7;
+	color: black;
+}
