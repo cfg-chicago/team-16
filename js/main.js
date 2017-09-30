@@ -58,6 +58,7 @@ function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
 
 
 
+
   // Write the new post's data simultaneously in the posts list and the user's post list.
 
   var updates = {};
