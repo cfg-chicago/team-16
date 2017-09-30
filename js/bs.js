@@ -1,3 +1,0 @@
-ha
-hello
-hi there

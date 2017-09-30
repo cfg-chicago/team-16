@@ -1,15 +1,37 @@
-html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300|Montserrat:800);
+
+html {
+    height: 100%;
+    width: 100%;
+    
+    margin: 0;
+
+    overflow: hidden;
 }
 
-#mainpanel {
+body {
+    color: black;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.title-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.mainbody{
+	background-color: #000;
+	color: black;
+}
+
+.homeicon {
 	height: 100%;
-	width: 100%;
-	margin: 0;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	background-color: yellow;
 }
