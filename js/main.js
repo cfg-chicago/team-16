@@ -61,12 +61,18 @@ function getJourneyPageInfo(journeyId) {
 
 }
 
-function getProfilePageInfo(userId) {
-
+function getJourneyPageInfo(journeyId) {
+  var journey_title = database.ref().child('journeys').child(journeyId).child('title');
+  var journey_description = database.ref().child('journeys').child(journeyId).child('description');
+  var ratings = database.ref().child('journeys').child(journeyId).child('ratings');
+  var background_image = database.ref().child('journeys').child(journeyId).child('background_image');
+  var posts = database.ref().child('journeys').child(journeyId).child('posts');
 }
 
-function writeNewReflection() {
-
+function getProfilePageInfo(userId) {
+  var profile_name = database.ref().child('users').child(userId).child('name');
+  var journey_description = database.ref().child('journeys').child(journeyId).child('description');
+  var ratings = database.ref().child('journeys').child(journeyId).child('ratings');
 }
 
 function getPosts() {
