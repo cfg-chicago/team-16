@@ -4,10 +4,10 @@ console.log("start");
 var database = firebase.database();
 
 //Test data
-String userId = "lj23";
-String name = "Lebron James";
-String email = "lebron.james23@gmail.com";
-String imageUrl = "google.com";
+String userIdx = "lj23";
+String namex = "Lebron James";
+String emailx = "lebron.james23@gmail.com";
+String imageUrlx = "google.com";
 
 function writeTestData(userId, name, email, imageUrl) {
   firebase.database().ref('tests/' + userId).set({
@@ -16,7 +16,7 @@ function writeTestData(userId, name, email, imageUrl) {
     profile_picture : imageUrl
   });
 }
-
+writeTestData(userIdx, namex, emailx, imageUrlx);
 /**
   * writes a new post
   */
