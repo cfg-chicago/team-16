@@ -26,6 +26,12 @@ $("#li").click(function(){
   }
 });
 
+$("#si").click(function(){
+  if(ACTIVE_UID != -1){
+    window.location.href = 
+  }
+});
+
 console.log(getJourneyPageInfo("90001"));
 
 // Parse the URL parameter
