@@ -40,10 +40,12 @@ function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
 
   // Write the new post's data simultaneously in the posts list and the user's post list.
   var updates = {};
-  updates['/posts/' + newPostKey] = postData;
-  updates['/users/' + userId + '/post_count'] = postCount++;
-  updates['/users/' + userId + '/posts/' + postCount] = newPostKey;
-  updates['/journeys/' + journeyId + '/posts/' + newPostKey] = newPostKey;
+  // updates['/posts/' + newPostKey] = postData;
+  // updates['/users/' + userId + '/post_count'] = postCount++;
+  // updates['/users/' + userId + '/posts/' + postCount] = newPostKey;
+  // updates['/journeys/' + journeyId + '/posts/' + newPostKey] = newPostKey;
+  updates[];
+  updates[];
 
   return firebase.database().ref().update(updates);
 }
