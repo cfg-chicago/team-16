@@ -57,7 +57,6 @@ body {
     line-height: 3em;
     font-size: 3em;
     padding-top: calc(0em);
-    margin: .1%;
     padding: 1px;
     border-radius: 5px;
     background-image: url('https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/12/iStock_000052710440_Medium.jpg');
@@ -73,7 +72,6 @@ body {
     height: 100%;
     width: 100%;
     padding:1%;
-
 }
 
 .stars-review-panel {
@@ -84,6 +82,8 @@ body {
   font-size: 1.5em;
   padding-left: 5%;
   padding-right: 5%;
+  overflow-y: auto;
+  max-height: 80vh;
 }
 
 .most-recent-review-panel .name {
@@ -116,5 +116,5 @@ body {
 }
 
 .review {
-  border: 1px solid white;
+  
 }
