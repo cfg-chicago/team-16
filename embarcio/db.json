@@ -1,0 +1,108 @@
+{
+  "profiles": [
+    {
+      "id": 0,
+      "name": "Sean L",
+      "username": "seanl",
+      "bio": "Hey, whats up!",
+      "age": 20,
+      "profileUrl": "../assets/avatars/man1.png",
+      "imgUrl": "../assets/images/sailboats.jpeg",
+      "goals": [
+        "learn how to sail",
+        "start a startup"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Emily B",
+      "username": "emilyb",
+      "bio": "Hello there.",
+      "age": 25,
+      "profileUrl": "../assets/avatars/girl1.png",
+      "imgUrl": "../assets/images/blanket.jpeg",
+      "goals": [
+        "go hiking once a month",
+        "eat ice cream"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Frank Z",
+      "username": "frankz",
+      "bio": "Hows it going?",
+      "age": 23,
+      "profileUrl": "../assets/avatars/man2.png",
+      "imgUrl": "../assets/images/swan.jpeg",
+      "goals": [
+        "learn landscape photography",
+        "go swimming next weekend"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Judy U",
+      "username": "judyu",
+      "bio": "Howdy!",
+      "age": 34,
+      "profileUrl": "../assets/avatars/woman1.png",
+      "imgUrl": "../assets/images/scrabble.jpeg",
+      "goals": [
+        "win the school scrabble contest",
+        "learn how to ride a horse"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bob C",
+      "username": "bobc",
+      "bio": "Hey, whats up!",
+      "age": 35,
+      "profileUrl": "../assets/avatars/man2.png",
+      "imgUrl": "../assets/images/train.jpeg",
+      "goals": [
+        "backpack through Europe",
+        "become a train conductor"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rose Z",
+      "username": "rosez",
+      "bio": "Hello there.",
+      "age": 27,
+      "profileUrl": "../assets/avatars/woman2.png",
+      "imgUrl": "../assets/images/bookstore.jpeg",
+      "goals": [
+        "read a book a day",
+        "go fishing"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Scott Z",
+      "username": "scottz",
+      "bio": "Thats funny.",
+      "age": 28,
+      "profileUrl": "../assets/avatars/boy1.png",
+      "imgUrl": "../assets/images/nightstreet.jpeg",
+      "goals": [
+        "go to New York for vacation",
+        "get an internship"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Michelle P",
+      "username": "michellep",
+      "bio": "Thats right.",
+      "age": 18,
+      "profileUrl": "../assets/avatars/girl2.png",
+      "imgUrl": "../assets/images/dock.jpeg",
+      "goals": [
+        "meditate once a day",
+        "go out with friends every week"
+      ]
+    }
+  ]
+}

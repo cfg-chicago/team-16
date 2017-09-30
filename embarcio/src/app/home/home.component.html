@@ -1,0 +1,35 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Welcome!</h1>
+    <p>This is what's been happening. Now you're all looped-in. Thanks for making a difference!</p>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let profile of profiles">
+        <md-card class="example-card">
+          <md-card-header>
+            <img md-card-avatar src={{profile.profileUrl}}/>
+            <md-card-title><a routerLink="profiles/{{profile.username}}">{{profile.name}}</a></md-card-title>
+            <md-card-subtitle>{{profile.bio}}</md-card-subtitle>
+          </md-card-header>
+          <img md-card-image class="profilePic" src={{profile.imgUrl}}>
+          <md-card-content>
+            <p>Goals:</p>
+            <ul *ngFor="let goal of profile.goals">
+              <li>{{goal}}</li>
+            </ul>
+            <p>Age: {{profile.age}}</p>
+          </md-card-content>
+          <md-card-actions>
+            <button md-button><md-icon svgIcon="favorite"></md-icon></button>
+            <button md-button>Share</button>
+          </md-card-actions>
+        </md-card><br>
+    </div>
+  </div>
+</div>
+<hr>
