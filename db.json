@@ -1,136 +1,130 @@
 {
-    "journeys" : [
-        {
-            "id":90001,
-            "title": "Journey 1",
-            "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!.",
-            "user_ids" : [ 
-            
-                1, 
-                3, 
-                4,
-                5
-            ],
-            "ratings": [
-                5,
-                4,
-                5,
-                5
+    "journeys" : {
+            "90001": {
+                "title": "Journey 1",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!.",
+                "user_ids" : [ 
+                
+                    1, 
+                    3, 
+                    4,
+                    5
+                ],
+                "ratings": [
+                    5,
+                    4,
+                    5,
+                    5
 
-            ],
-            "background_image" : "",
-            "posts": [
-                70001,
-                70002,
-                70003,
-                70004
-            ]
+                ],
+                "background_image" : "",
+                "posts": [
+                    70001,
+                    70002,
+                    70003,
+                    70004
+                ]
 
+            },
+            "90002": {
+                "title": "Journey 2",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : [ 
+                    1,
+                    2, 
+                    3, 
+                    4
+                ],
+                "ratings": [
+                    4,
+                    4,
+                    5,
+                    5
+                ],
+                "background_image" : "",
+                "posts": [
+                    70005,
+                    70006,
+                    70007,
+                    70008
+                ]
+
+            },
+            "90003" : {
+                "title": "Journey 3",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : [ 
+                    1, 
+                    2,
+                    3, 
+                    5
+                ],
+                "ratings": [
+                    5,
+                    5,
+                    5,
+                    3
+                ],
+                "background_image" : "",
+                "posts": [
+                    70009,
+                    70010,
+                    70011,
+                    70012
+                ]
+
+            },
+            "90004": {
+                "title": "Journey 4",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : [ 
+                    1, 
+                    3, 
+                    4,
+                    5
+                ],
+                "ratings": [
+                    4,
+                    4,
+                    5,
+                    4
+                ],
+                "background_image" : "",
+                "posts": [
+                    70013,
+                    70014,
+                    70015,
+                    70016
+                ]
+
+            },
+            "90005" : {
+                "title": "Journey 5",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : {
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5"
+                },
+                "ratings": [
+                    2,
+                    4,
+                    3,
+                    3,
+                    4
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70017" : "70017",
+                    "70018" : "70018",
+                    "70019" : "70019",
+                    "70020" : "70020",
+                    "70021" : "70021"
+                }
+            }
         },
-        {
-            "id": 90002,
-            "title": "Journey 2",
-            "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
-            "user_ids" : [ 
-                1,
-                2, 
-                3, 
-                4
-            ],
-            "ratings": [
-                4,
-                4,
-                5,
-                5
-            ],
-            "background_image" : "",
-            "posts": [
-                70005,
-                70006,
-                70007,
-                70008
-            ]
-
-        },
-        {
-            "id": 90003,
-            "title": "Journey 3",
-            "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
-            "user_ids" : [ 
-                1, 
-                2,
-                3, 
-                5
-            ],
-            "ratings": [
-                5,
-                5,
-                5,
-                3
-            ],
-            "background_image" : "",
-            "posts": [
-                70009,
-                70010,
-                70011,
-                70012
-            ]
-
-        },
-    {
-            "id": 90004,
-            "title": "Journey 4",
-            "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
-            "user_ids" : [ 
-                1, 
-                3, 
-                4,
-                5
-            ],
-            "ratings": [
-                4,
-                4,
-                5,
-                4
-            ],
-            "background_image" : "",
-            "posts": [
-                70013,
-                70014,
-                70015,
-                70016
-            ]
-
-        },
-    {
-            "id": 90005,
-            "title": "Journey 5",
-            "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
-            "user_ids" : [ 
-                1,
-                2,
-                3, 
-                4, 
-                5
-            ],
-            "ratings": [
-                2,
-                4,
-                3,
-                3,
-                4
-            ],
-            "background_image" : "",
-            "posts": [
-                70017,
-                70018,
-                70019,
-                70020,
-                70021
-            ]
-
-        }
-    ],
     "users" : [
         {
             "id" : 1,
