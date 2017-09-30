@@ -54,6 +54,7 @@ function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
     user_id: userId,
     journey_id: journeyId,
   };
+  
 
 
   // Write the new post's data simultaneously in the posts list and the user's post list.
