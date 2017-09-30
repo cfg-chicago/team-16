@@ -106,7 +106,10 @@ function showErrorMessage(message) {
     var time = message.length * 20 + 300;
     msgcontent.innerHTML = message;
     msgbox.style.display = "block";
-    
+    window.setTimeout(function () {
+        msgbox.style.display = "none";
+        msgcontent.innerHTML = "";
+    }, time);
 }
 
 console.log("finish");
