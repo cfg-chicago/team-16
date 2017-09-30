@@ -9,7 +9,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	overflow-y: scroll;
+	overflow-y: auto;
 	overflow-x: hidden;
 	background-color: yellow;
 }
@@ -20,4 +20,29 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 	background-color: red;
+}
+
+.mainbody {
+	height: 90%;
+	width: 100%;
+	overflow: hidden;
+	background-color: lightred;
+}
+
+.leftbody{
+	height: 100%;
+	width: 20%;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: auto;
+	background-color: green;
+}
+
+.rightbody{
+	height: 100%;
+	width: 80%;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: auto;
+	background-color: blue;
 }
