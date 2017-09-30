@@ -21,6 +21,7 @@
             ],
             "reviews": [
                 {
+                    
                     "user_id":1,
                     "title" : "Amazing Journey",
                     "body": "This journey was fun!",
@@ -175,7 +176,7 @@
         }
     ],
     "posts" : [ 
-    
+
         {
             "id": 70001,
             "body" : "Wow, this is post 1",
