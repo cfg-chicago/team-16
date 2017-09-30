@@ -24,23 +24,6 @@
                 70002,
                 70003,
                 70004
-            ],
-            "reviews": [
-                {
-
-                    "user_id":1,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was fun!",
-                    "upload_date": "September 25, 2017"
-
-                },
-                {
-                    "user_id":2,
-                    "title" : "That was pretty cool",
-                    "body": "This journey was pretty dope~",
-                    "upload_date": "September 26, 2017"
-
-                }
             ]
 
         },
@@ -66,36 +49,6 @@
                 70006,
                 70007,
                 70008
-            ],
-            "reviews": [
-                {
-                    "user_id":1,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was fun!",
-                    "upload_date": "September 25, 2017"
-
-                },
-                {
-                    "user_id":2,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was pretty dope~",
-                    "upload_date": "September 26, 2017"
-
-                },
-                {
-                    "user_id":3,
-                    "title" : "Fun trip",
-                    "body": "I had fun!",
-                    "upload_date": "September 26, 2017"
-
-                },
-                {
-                    "user_id":4,
-                    "title" : "Great time!",
-                    "body": "This journey was pretty dope~~~~",
-                    "upload_date": "September 26, 2017"
-
-                }
             ]
 
         },
@@ -121,36 +74,6 @@
                 70010,
                 70011,
                 70012
-            ],
-            "reviews": [
-                {
-                    "user_id":1,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was fun!",
-                    "upload_date": "September 25, 2017"
-
-                },
-                {
-                    "user_id":2,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was pretty dope~",
-                    "upload_date": "September 26, 2017"
-
-                },
-                {
-                    "user_id":3,
-                    "title" : "Best journey I've been on!",
-                    "body": "I had a ton of fun! Would recommend!",
-                    "upload_date": "September 26, 2017"
-
-                },
-                {
-                    "user_id":5,
-                    "title" : "Ehhh",
-                    "body": "This journey was so-so.",
-                    "upload_date": "September 26, 2017"
-
-                }
             ]
 
         },
@@ -176,22 +99,6 @@
                 70014,
                 70015,
                 70016
-            ],
-            "reviews": [
-                {
-                    "user_id":1,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was fun!",
-                    "upload_date": "September 25, 2017"
-
-                },
-                {
-                    "user_id":2,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was pretty dope~",
-                    "upload_date": "September 26, 2017"
-
-                }
             ]
 
         },
@@ -220,22 +127,6 @@
                 70019,
                 70020,
                 70021
-            ],
-            "reviews": [
-                {
-                    "user_id":1,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was fun!",
-                    "upload_date": "September 25, 2017"
-
-                },
-                {
-                    "user_id":2,
-                    "title" : "Amazing Journey",
-                    "body": "This journey was pretty dope~",
-                    "upload_date": "September 26, 2017"
-
-                }
             ]
 
         }
