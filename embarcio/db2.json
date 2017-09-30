@@ -1,0 +1,643 @@
+{
+    "journeys" : {
+            "90001": {
+                "title": "Journey 1",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!.",
+                "user_ids" : { 
+                    "1": "1",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5"
+                },
+                "ratings": [
+                    5,
+                    4,
+                    5,
+                    5
+
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70001" : "70001",
+                    "70002" : "70002",
+                    "70003" : "70003",
+                    "70004" : "70004"
+                }
+
+            },
+            "90002": {
+                "title": "Journey 2",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : { 
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4"
+                },
+                "ratings": [
+                    4,
+                    4,
+                    5,
+                    5
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70005" : "70005",
+                    "70006" : "70006",
+                    "70007" : "70007",
+                    "70008" : "70008"
+                }
+
+            },
+            "90003" : {
+                "title": "Journey 3",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : {
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "5": "5"
+                },
+                "ratings": [
+                    5,
+                    5,
+                    5,
+                    3
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70009" : "70009",
+                    "70010" : "70010",
+                    "70011" : "70011",
+                    "70012" : "70012"
+                }
+
+            },
+            "90004": {
+                "title": "Journey 4",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : { 
+                    "1": "1",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5"
+                },
+                "ratings": [
+                    4,
+                    4,
+                    5,
+                    4
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70013" : "70013",
+                    "70014" : "70014",
+                    "70015" : "70015",
+                    "70016" : "70016"
+                }
+
+            },
+            "90005" : {
+                "title": "Journey 5",
+                "description": "Making my way downtown, walking fast, faces past, and I'm homebound!!!",
+                "user_ids" : {
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5"
+                },
+                "ratings": [
+                    2,
+                    4,
+                    3,
+                    3,
+                    4
+                ],
+                "background_image" : "",
+                "posts": {
+                    "70017" : "70017",
+                    "70018" : "70018",
+                    "70019" : "70019",
+                    "70020" : "70020",
+                    "70021" : "70021"
+                }
+            }
+        },
+    "profiles" : [
+        {
+            "id": 1,
+            "email" : "seanxmli@gmail.com",
+            "name": "Sean Li",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "seanl",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/boy2.png",
+            "imgUrl": "../assets/images/sailboats.jpeg",
+            "goals": [
+              "learn how to sail",
+              "start a startup"
+            ]
+            
+        },
+        {
+            "id":2,
+            "email" : "dgarry@usc.edu",
+            "name": "David Garry",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90002, 
+                90003,
+                90005
+            ],
+            "username": "davidg",
+            "bio": "Hello there.",
+            "age": 21,
+            "profileUrl": "../assets/avatars/man2.png",
+            "imgUrl": "../assets/images/blanket.jpeg",
+            "goals": [
+              "go hiking once a month",
+              "learn how to weld"
+            ]
+            
+        },
+        {
+            "id": 3,
+            "email" : "snhoward@stanford.edu",
+            "name": "Sean Howard",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "showard",
+            "bio": "Hows it going?",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man3.png",
+            "imgUrl": "../assets/images/swan.jpeg",
+            "goals": [
+              "learn landscape photography",
+              "become a software developer"
+            ]
+        },
+        {
+            "id": 4,
+            "email" : "nkk1@rice.edu",
+            "name": "Namanh Kapur",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90004,
+                90005 
+            ],
+            "username": "namanhk",
+            "bio": "Howdy!",
+            "age": 19,
+            "profileUrl": "../assets/avatars/boy1.png",
+            "imgUrl": "../assets/images/scrabble.jpeg",
+            "goals": [
+              "win the school scrabble contest",
+              "go to grad school"
+            ]
+            
+        },
+        {
+            "id": 5,
+            "email" : "ety1@rice.edu",
+            "name": "Erik Yamada",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90003,
+                90004,
+                90005 
+
+            ],
+            "username": "eriky",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man1.png",
+            "imgUrl": "../assets/images/train.jpeg",
+            "goals": [
+              "backpack through Europe",
+              "become a train conductor"
+            ]
+        },
+        {
+            "id": 6,
+            "email" : "seanxmli@gmail.com",
+            "name": "Sean Li",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "seanl",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/boy2.png",
+            "imgUrl": "../assets/images/sailboats.jpeg",
+            "goals": [
+              "learn how to sail",
+              "start a startup"
+            ]
+            
+        },
+        {
+            "id":7,
+            "email" : "dgarry@usc.edu",
+            "name": "David Garry",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90002, 
+                90003,
+                90005
+            ],
+            "username": "davidg",
+            "bio": "Hello there.",
+            "age": 21,
+            "profileUrl": "../assets/avatars/man2.png",
+            "imgUrl": "../assets/images/blanket.jpeg",
+            "goals": [
+              "go hiking once a month",
+              "learn how to weld"
+            ]
+            
+        },
+        {
+            "id": 8,
+            "email" : "snhoward@stanford.edu",
+            "name": "Sean Howard",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "showard",
+            "bio": "Hows it going?",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man3.png",
+            "imgUrl": "../assets/images/swan.jpeg",
+            "goals": [
+              "learn landscape photography",
+              "become a software developer"
+            ]
+        },
+        {
+            "id": 9,
+            "email" : "nkk1@rice.edu",
+            "name": "Namanh Kapur",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90004,
+                90005 
+            ],
+            "username": "namanhk",
+            "bio": "Howdy!",
+            "age": 19,
+            "profileUrl": "../assets/avatars/boy1.png",
+            "imgUrl": "../assets/images/scrabble.jpeg",
+            "goals": [
+              "win the school scrabble contest",
+              "go to grad school"
+            ]
+            
+        },
+        {
+            "id": 10,
+            "email" : "ety1@rice.edu",
+            "name": "Erik Yamada",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90003,
+                90004,
+                90005 
+
+            ],
+            "username": "eriky",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man1.png",
+            "imgUrl": "../assets/images/train.jpeg",
+            "goals": [
+              "backpack through Europe",
+              "become a train conductor"
+            ]
+        },
+        {
+            "id": 11,
+            "email" : "seanxmli@gmail.com",
+            "name": "Sean Li",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "seanl",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/boy2.png",
+            "imgUrl": "../assets/images/sailboats.jpeg",
+            "goals": [
+              "learn how to sail",
+              "start a startup"
+            ]
+            
+        },
+        {
+            "id":12,
+            "email" : "dgarry@usc.edu",
+            "name": "David Garry",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90002, 
+                90003,
+                90005
+            ],
+            "username": "davidg",
+            "bio": "Hello there.",
+            "age": 21,
+            "profileUrl": "../assets/avatars/man2.png",
+            "imgUrl": "../assets/images/blanket.jpeg",
+            "goals": [
+              "go hiking once a month",
+              "learn how to weld"
+            ]
+            
+        },
+        {
+            "id": 13,
+            "email" : "snhoward@stanford.edu",
+            "name": "Sean Howard",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90003,
+                90004,
+                90005 
+            ],
+            "username": "showard",
+            "bio": "Hows it going?",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man3.png",
+            "imgUrl": "../assets/images/swan.jpeg",
+            "goals": [
+              "learn landscape photography",
+              "become a software developer"
+            ]
+        },
+        {
+            "id": 14,
+            "email" : "nkk1@rice.edu",
+            "name": "Namanh Kapur",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90002,
+                90004,
+                90005 
+            ],
+            "username": "namanhk",
+            "bio": "Howdy!",
+            "age": 19,
+            "profileUrl": "../assets/avatars/boy1.png",
+            "imgUrl": "../assets/images/scrabble.jpeg",
+            "goals": [
+              "win the school scrabble contest",
+              "go to grad school"
+            ]
+            
+        },
+        {
+            "id": 15,
+            "email" : "ety1@rice.edu",
+            "name": "Erik Yamada",
+            "profile_picture": "",
+            "is_teacher" : true,
+            "journeys" : [ 
+                90001, 
+                90003,
+                90004,
+                90005 
+
+            ],
+            "username": "eriky",
+            "bio": "Hey, whats up!",
+            "age": 20,
+            "profileUrl": "../assets/avatars/man1.png",
+            "imgUrl": "../assets/images/train.jpeg",
+            "goals": [
+              "backpack through Europe",
+              "become a train conductor"
+            ]
+        }
+    ],
+    "posts" : {
+
+        "70001": {
+            "body" : "Journey 1, User 1, rated 5",
+            "upload_date" : "September 29, 2017",
+            "image_url" : "",
+            "user_id" :1,
+            "journey_id" : 1
+
+        }, 
+        "70002": {
+            "body" : "Journey 1, User 3, rated 4",
+            "upload_date" : "September 30, 2017",
+            "image_url" : "",
+            "user_id" :3,
+            "journey_id" : 1
+        },
+        "70003": {
+            "body" : "Journey 1, User 4, rated 5",
+            "upload_date" : "September 29, 2017",
+            "image_url" : "",
+            "user_id" :4,
+            "journey_id" : 1
+        },
+        "70004": {
+            "body" : "Journey 1, User 5, rated 5",
+            "upload_date" : "October 1, 2017",
+            "image_url" : "",
+            "user_id" :5,
+            "journey_id" : 1
+
+        },
+        "70005": {
+            "body" : "Journey 2, User 1, rated 4",
+            "upload_date" : "October 2, 2017",
+            "image_url" : "",
+            "user_id" :1,
+            "journey_id" : 2
+
+        },
+        "70006": {
+            "body" : "Journey 2, User 2, rated 4",
+            "upload_date" : "October 2, 2017",
+            "image_url" : "",
+            "user_id" :2,
+            "journey_id" : 2
+
+        },
+        "70007": {
+            "body" : "Journey 2, User 3, rated 5",
+            "upload_date" : "October 3, 2017",
+            "image_url" : "",
+            "user_id" :3,
+            "journey_id" : 2
+
+        },
+        "70008": {
+            "body" : "Journey 2, User 4, rated 5",
+            "upload_date" : "October 3, 2017",
+            "image_url" : "",
+            "user_id" :4,
+            "journey_id" : 2
+
+        },
+        "70009":{
+            "body" : "Journey 3, User 1, rated 5",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :1,
+            "journey_id" : 3
+
+        },
+        "70010":{
+            "body" : "Journey 3, User 2, rated 5",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :2,
+            "journey_id" : 3
+
+        },
+        "70011":{
+            "body" : "Journey 3, User 3, rated 5",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :3,
+            "journey_id" : 3
+
+        },
+        "70012": {
+            "body" : "Journey 3, User 5, rated 3",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5,
+            "journey_id" : 3
+
+        },
+        "70013": {
+            "body" : "Journey 4, User 1, rated 4",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :1,
+            "journey_id" : 4
+
+        },
+        "70014" : {
+            "body" : "Journey 4, User 3, rated 4",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :3,
+            "journey_id" : 4
+
+        },
+        "70015":{  
+            "body" : "Journey 4, User 4, rated 5",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :4,
+            "journey_id" : 4
+
+        },
+        "70016":{
+            "body" : "Journey 4, User 5, rated 4",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :5,
+            "journey_id" : 4
+
+        },
+        "70017":{
+            "body" : "Journey 5, User 1, rated 2",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :1,
+            "journey_id" : 5
+
+        },
+        "70018":{
+            "body" : "Journey 5, User 2, rated 4",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :2,
+            "journey_id" : 5
+
+        },
+        "70019":{
+            "body" : "Journey 5, User 3, rated 3",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :3,
+            "journey_id" : 5
+
+        },
+        "70020":{
+            "body" : "Journey 5, User 4, rated 3",
+            "upload_date" : "October 5, 2017",
+            "image_url" : "",
+            "user_id" :4,
+            "journey_id" : 5
+
+        },
+        "70021":{
+            "body" : "Journey 5, User 5, rated 4",
+            "upload_date" : "October 4, 2017",
+            "image_url" : "",
+            "user_id" :5,
+            "journey_id" : 5
+
+        }
+}
+}

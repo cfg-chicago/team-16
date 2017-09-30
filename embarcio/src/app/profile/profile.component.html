@@ -1,0 +1,27 @@
+<div class="jumbotron">
+  <div class="container"> 
+    <img class="profileImg" src={{profileData.profileUrl}}/>
+    <h1>{{profileData.name}}</h1>
+  </div>
+</div>
+<div class="container">
+  <h3>{{profileData.bio}}</h3>
+  <h4>Age: {{profileData.age}}</h4>
+  <h4>Career Aspirations:</h4>
+  <ul *ngFor="let goal of profileData.goals">
+    <li>{{goal}}</li>
+  </ul>
+  <hr>
+</div>
+<div class="container">
+<md-card class="example-card">
+  <img md-card-image src={{profileData.imgUrl}}>
+</md-card>
+<hr><br>
+</div>
+
+<!--<div class="container">
+  <pre>You are accessing url: {{ url }}</pre>
+  <pre>Profile has username: {{ userName }}</pre>
+  <pre>Data: {{ profileData | json}}</pre>
+</div>-->
