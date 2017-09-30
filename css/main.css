@@ -49,6 +49,7 @@ body {
     margin-left: 0.5%;
     border-radius: 5px;
     overflow: hidden;
+    padding-bottom: 0%;
 }
 .journey-panel .journey-header {
     background-color: white;
