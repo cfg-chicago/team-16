@@ -93,6 +93,7 @@ function attemptCreateMessage() {
     var conversation_id = document.getElementById(ACTIVE_CONVERSATION_ID).id;
     xmlhttp.open("GET", "createMessageHandler.php?c=" + content + "&u=" + ACTIVE_UID + "&i=" + conversation_id, true);
     xmlhttp.send();
+    
 }
 
 /**
