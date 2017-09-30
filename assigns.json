@@ -1,0 +1,44 @@
+{
+    "assignments": [
+        {
+            "id":1,
+            "title": "Assignment 1",
+            "due_date": "September 29, 2017",
+            "points": 10,
+            "assign_text": "This is the body for assignment 1. Take a picture for your journey!",
+            "date_created": "September 20, 2017"
+        },
+        {
+            "id":2,
+            "title": "Assignment 2",
+            "due_date": "September 30, 2017",
+            "points": 10,
+            "assign_text": "This is the body for assignment 2. Take a picture for your journey!",
+            "date_created": "September 20, 2017"
+        },
+        {
+            "id":3,
+            "title": "Assignment 3",
+            "due_date": "October 1, 2017",
+            "points": 10,
+            "assign_text": "This is the body for assignment 3. Take a picture for your journey!",
+            "date_created": "September 20, 2017"
+        },
+        {
+            "id":4,
+            "title": "Assignment 4",
+            "due_date": "October 2, 2017",
+            "points": 10,
+            "assign_text": "This is the body for assignment 4. Take a picture for your journey!",
+            "date_created": "September 20, 2017"
+        },
+        {
+            "id":5,
+            "title": "Assignment 5",
+            "due_date": "October 3, 2017",
+            "points": 10,
+            "assign_text": "This is the body for assignment 5. Take a picture for your journey!",
+            "date_created": "September 20, 2017"
+        }
+    ]
+}
