@@ -1,12 +1,14 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	margin: 0;
 	overflow: hidden;
 }
 
 #mainpanel {
 	height: 100%;
 	width: 100%;
+	margin: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	background-color: yellow;
