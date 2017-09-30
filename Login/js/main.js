@@ -5,7 +5,7 @@ $('.message a').click(function(){
 $("#loginbutton").click(function(){
   var usn = document.getElementById("loginusername").value;
   var pw = document.getElementById("loginpassword").value;
-  var location = "../html/index.html?usn=" + usn + "?hash=" + pw.hashCode();
+  var location = "../html/index.html?usn=" + usn + "&?hash=" + pw.hashCode();
   window.location.href = location;
 });
 
