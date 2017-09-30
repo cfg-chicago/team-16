@@ -6,7 +6,7 @@ html {
 
     margin: 0;
 
-    overflow: hidden;
+    
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+
 
 }
 
@@ -41,6 +41,83 @@ body {
 }
 
 .journey-panel {
-	background-color: #222222;
-	color: #fff;
+    background-color: #222222;
+    color: #fff;
+    height:85%;
+    width:99%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0%;
+}
+.journey-panel .journey-header {
+    background-color: white;
+    color: #fff;
+    height:3em;
+    line-height: 3em;
+    font-size: 3em;
+    padding-top: calc(0em);
+    padding: 1px;
+    border-radius: 5px;
+    background-image: url('https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/12/iStock_000052710440_Medium.jpg');
+    background:linear-gradient(0deg,rgba(0,0,150,0.35),rgba(0,0,150,0.35)),url('https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/12/iStock_000052710440_Medium.jpg');
+    background-size:cover;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.journey-panel .bottom-journey-panel {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding:1%;
+}
+
+.stars-review-panel {
+  font-size: 2em;
+}
+
+.most-recent-review-panel {
+  font-size: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.most-recent-review-panel .name {
+  color: yellow;
+  font-weight: bold;
+}
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0;
+   color: gold;
+
+}
+
+.review {
+  margin-bottom: 10px;
 }
