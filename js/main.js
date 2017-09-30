@@ -4,19 +4,19 @@ console.log("start");
 var database = firebase.database();
 
 //Test data
-String userIdx = "lj23";
-String namex = "Lebron James";
-String emailx = "lebron.james23@gmail.com";
-String imageUrlx = "google.com";
+var userIdx = "lj23";
+var namex = "Lebron James";
+var emailx = "lebron.james23@gmail.com";
+var imageUrlx = "google.com";
 
 function writeTestData(userId, name, email, imageUrl) {
-  firebase.database().ref('tests/' + userId).set({
+  database.ref('tests/' + userId).set({
     username: name,
     email: email,
     profile_picture : imageUrl
   });
 }
-writeTestData(userIdx, namex, emailx, imageUrlx);
+//writeTestData(userIdx, namex, emailx, imageUrlx);
 
 /**
   * writes a new post
@@ -24,7 +24,7 @@ writeTestData(userIdx, namex, emailx, imageUrlx);
 function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
 
   // Get a key for a new Post.
-  var newPostKey = firebase.database().ref().child('posts').push().key;
+  var newPostKey = database.ref().child('posts').push().key;
 
   // A post entry.
   var postData = {
@@ -36,21 +36,50 @@ function writeNewPost(userid, uploadDate, imageUrl, journeyId, body) {
     journey_id: journeyId,
   };
 
-  var postCount = firebase.database.ref().child('users').child(userId).child('post_count');
-
   // Write the new post's data simultaneously in the posts list and the user's post list.
   var updates = {};
-  // updates['/posts/' + newPostKey] = postData;
-  // updates['/users/' + userId + '/post_count'] = postCount++;
-  // updates['/users/' + userId + '/posts/' + postCount] = newPostKey;
-  // updates['/journeys/' + journeyId + '/posts/' + newPostKey] = newPostKey;
-  updates[];
-  updates[];
+  updates['/posts/' + newPostKey] = postData;
+  updates['/users/' + userId + '/posts/' + newPostKey] = newPostKey;
+  updates['/journeys/' + journeyId + '/posts/' + newPostKey] = newPostKey;
 
-  return firebase.database().ref().update(updates);
+  return database.ref().update(updates);
 }
 
-function
+// Allows a user to join a journey
+function joinJourney(userId, journeyId) {
+  var updates = {};
+  updates['/users/' + userId + '/journey_ids/' + journeyId] = journeyId;
+  updates['/journeys/' + journeyId + '/users/' + userId] = userId;
+
+  return database.ref().update(updates);
+}
+
+function getJourneyPageInfo(journeyId) {
+  var ratings = database.ref();
+  var background_image;
+  var posts;
+
+}
+
+function getJourneyPageInfo(journeyId) {
+  var journey_title = database.ref().child('journeys').child(journeyId).child('title');
+  var journey_description = database.ref().child('journeys').child(journeyId).child('description');
+  var ratings = database.ref().child('journeys').child(journeyId).child('ratings');
+  var background_image = database.ref().child('journeys').child(journeyId).child('background_image');
+  var posts = database.ref().child('journeys').child(journeyId).child('posts');
+}
+
+function getProfilePageInfo(userId) {
+  var profile_name = database.ref().child('users').child(userId).child('name');
+  var journey_description = database.ref().child('journeys').child(journeyId).child('description');
+  var ratings = database.ref().child('journeys').child(journeyId).child('ratings');
+}
+
+function getPosts() {
+
+}
+
+
 
 
 
