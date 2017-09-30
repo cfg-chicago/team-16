@@ -110,3 +110,5 @@ function showErrorMessage(message) {
         msgcontent.innerHTML = "";
     }, time);
 }
+
+console.log("finish");
