@@ -5,11 +5,9 @@ html {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #52C0A7;
 }
 
 body {
-    background-color: #52C0A7;
     color: black;
     font-family: 'Josefin Sans';
     font-weight: 300;
@@ -26,7 +24,7 @@ body {
 }
 
 .mainbody{
-	background-color: #52C0A7;
+	background-color: #000;
 	color: black;
 }
 
