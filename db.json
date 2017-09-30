@@ -175,13 +175,14 @@
         }
     ],
     "posts" : [ 
+    
         {
             "id": 70001,
             "body" : "Wow, this is post 1",
             "upload_date" : "September 29, 2017",
             "image_url" : "",
             "user_id" :1
-            
+
         }, 
         {
             "id": 70002,
