@@ -16,7 +16,7 @@ function writeTestData(userId, name, email, imageUrl) {
     profile_picture : imageUrl
   });
 }
-writeTestData(userIdx, namex, emailx, imageUrlx);
+//writeTestData(userIdx, namex, emailx, imageUrlx);
 
 /**
   * writes a new post
