@@ -1,1 +1,2 @@
 ejs.js
+hi.js
